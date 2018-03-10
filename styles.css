@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Permanent Marker";
+  font-size: 70px;
+  margin: 0.5em;
+}
+
+h2 {
+  margin: 1em auto;
+  font-family: "Questrial";
+  letter-spacing: .1em;
+}
+
+label {
+  font-family: "Questrial";
+  padding: 0;
+  margin: 1em;;
+  font-size: 1.5em;
+}
+
+input {
+  font-size: 1em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+.blue {
+ background-color: ;
+}
