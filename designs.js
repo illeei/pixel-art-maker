@@ -8,7 +8,7 @@ $("#pixelCanvas").on("click","td", function() {
 //creates grid
 function makeGrid(event) {
   event.preventDefault();
-  $("tr").empty();
+  $("#pixelCanvas").empty();
   var height=parseInt($('#inputHeight').val(), 10);
   var width=parseInt($('#inputWidth').val(), 10);
   for (var a = 0; a < height; a++) {
